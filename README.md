@@ -1,7 +1,7 @@
 # Castlevania The Adventure ReBalance ROM Hack
  A patch for Castlevania The Adventure that attempts to fix the main issues many people have this the original
  
- ![](https://github.com/Bofner/Castlevania-The-Adventure-ReBalance-ROM-Hack/blob/main/images/Castlevania%20-%20The%20Adventure%20ReBalance%20v1.0%20(USA).png)
+ ![](https://github.com/Bofner/Castlevania-The-Adventure-ReBalance-ROM-Hack/blob/main/images/titlepng.png)
  
  Alterations include:
  
