@@ -1,0 +1,74 @@
+; Castlevania Adventure symbol file written by Cameron "Bofner" Mitchell
+
+[information]
+version 1
+
+[labels]
+; Player
+00:C300 startOAMBuffer
+00:C3C9 entityOffsetMaybe
+
+00:C3D2 entityHitboxX
+00:C3D3 entityHitboxY
+
+
+00:C414 playerStatHi
+00:c415 playerStatLo
+00:C416 selectedEntityStatHi
+00:C417 selectedEntityStatLo
+00:C412 metaLevel
+
+
+00:C500 playerStatsStart
+00:C504 playerStatus
+00:C506 playerDirectionBitmap
+00:C507 accelerationValue
+00:C508 playerSpeedHi
+00:C509 playerSpeedLo
+00:C50A playerXPosLo
+00:C50B playerXPosHi
+00:C50C playerPageNumber
+00:C50D playerJumpVelocityMaybe
+00:C50E playerGravity
+00:C510 playerJumpTimer
+00:C512 playerYPos
+00:C513 playerAnimation1
+00:C516 playerAnimation2
+00:C519 playerHealth
+00:C51C playerWhipStatus
+00:C533 playerFlameXPos
+00:C57F playerStatsEndMaybe
+
+; HL = HL + A
+00:0028 AdjustForOffset
+00:173C SetPlayerSpeed
+00:172C SetPlayerStats
+00:1986 PlayerJumpRoutine
+00:1994 SetPlayerJumpTimer
+00:2277 OtherEntityMovementRoutine 
+00:2284 PlayerMovementRoutine 
+00:228F CheckDirectionBitmap
+; For the sickle throwers when their sickle boomerangs
+00:229C PossibleReverseAcceleration
+; Adjust(?) speed, and get to xPos
+00:22A7 PossibleAcceleration
+00:22B0 JumpToXPos
+00:22B3 SetXPos
+00:22BD UpdateXPosLeft
+00:22CD UpdateXPosRight
+00;2D4B SpikeWallSpeedLo
+
+00:312E SetLoneBallStats
+01:5E65 RubberBallSpeedX
+01:5E69 RubberBallSpeedY
+01:5F77 LoneRubberBallSpeedX
+01:5F7B LoneRubberBallSpeedY
+
+00:2355 SetStatAddressOffsetZero
+00:2352 SetStatAddress
+
+01:7AC3 DowngradeWhipRoutine
+01:7A93 DecWhipLevel
+01:7ACF SetWhipStatus
+
+01:7B78 CheckCollision
