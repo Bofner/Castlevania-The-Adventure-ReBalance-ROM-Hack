@@ -28,7 +28,4 @@ Use the program FLIPS to install this patch. Simply follow the on-screen prompts
 
 FLIPS: https://www.romhacking.net/utilities/1040/
 
-NOTE: A ROM file for the Game Boy game Castlevania - The Adventure is required to install this patch, and is NOT contained within this repository.
-The specific ROM you're looking for will be titled:
-
-Castlevania - The Adventure (USA).gb
+NOTE: A ROM file for the Game Boy game titled: "Castlevania - The Adventure (USA).gb" is required to install this patch, and is NOT contained within this repository.
